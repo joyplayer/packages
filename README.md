@@ -2,7 +2,7 @@
 Coolsnowwolf LEDE packages feeds
 
 # OpenWrt packages feed
-Weekly update
+Weekly update ;>
 
 ## Description
 
