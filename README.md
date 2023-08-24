@@ -14,6 +14,12 @@ Installation of pre-built packages is handled directly by the **opkg** utility w
 
 This repository is intended to be layered on-top of an OpenWrt buildroot. If you do not have an OpenWrt buildroot installed, see the documentation at: [OpenWrt Buildroot – Installation](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem) on the OpenWrt support site.
 
+fix feeds.conf.default
+```
+## src-git packages https://github.com/coolsnowwolf/packages
+src-git packages https://github.com/joyplayer/packages.git
+```
+
 This feed is enabled by default. To install all its package definitions, run:
 ```
 ./scripts/feeds update packages
